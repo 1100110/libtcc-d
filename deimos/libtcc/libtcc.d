@@ -4,8 +4,6 @@ extern (C) nothrow:
 
 struct TCCState{}
 
-TCCState tccstate;
-
 /* create a new TCC compilation context */
 TCCState* tcc_new();
 
