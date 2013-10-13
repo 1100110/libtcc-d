@@ -2,7 +2,9 @@ import deimos.libtcc.libtcc;
 import std.string;
 import std.stdio;
 pragma(lib, "tcc");
-
+/**
+    Example shows reading a file and running it.
+*/
 enum CFile = "views/helloWorld.c";
 
 void main()

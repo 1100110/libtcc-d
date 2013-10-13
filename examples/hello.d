@@ -1,6 +1,9 @@
 import deimos.libtcc.libtcc;
 pragma(lib, "tcc");
-
+/**
+    Example that shows dynamically generating and running a C Example.
+    It also shows most of the checks you should do to spot errors.
+*/
 enum helloC = // Simple hello world C example.
     "int main()\n{\n\tprintf(\"Hello World!\");\n\treturn 9;\n}\n";
 
@@ -21,6 +24,7 @@ void main()
 
     writefln( "Running:\n%s", helloC);
     /// Now run the new file passing along the args.
+    /// tcc_run( tccstate, int argc, char** argv);
     auto ret = tcc_run(tccstate, 0, null);
     assert( 9 == ret );
 

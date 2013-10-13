@@ -1,5 +1,5 @@
 int main()
 {
-    printf("Hello libtcc World!\n");
+    printf("\nHello libtcc World!\n");
     return 9;
 }
