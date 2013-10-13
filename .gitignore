@@ -1,1 +1,4 @@
-views/helloCWorld
+helloWorld
+*.o
+*.so
+*.a
