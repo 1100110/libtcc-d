@@ -2,6 +2,7 @@
 	"name":         "libtcc-d",
 	"description":  "D Binding to the Tiny C Compiler",
 	"homepage":     "http://bellard.org/tcc/",
+    "license":      "LGPL-2.1 or later",
     "targetType":   "library",
     "targetName":   "tcc-d",
     "sourcePaths":  ["deimos"],
