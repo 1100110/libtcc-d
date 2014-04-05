@@ -1,4 +1,4 @@
-import deimos.libtcc.libtcc;
+import deimos.tcc;
 import std.string;
 pragma(lib, "tcc");
 /**

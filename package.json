@@ -1,7 +1,0 @@
-{
-	"name": "libtcc-d",
-	"description": "D Binding to the Tiny C Compiler",
-	"homepage": "http://bellard.org/tcc/",
-	"dependencies": {
-	}
-}

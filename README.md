@@ -2,6 +2,6 @@
 
 ## Requirements
 - [tcc library](http://bellard.org/tcc/)
-- D compiler
+- [D compiler](http://dlang.com)
 
 

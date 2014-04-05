@@ -1,4 +1,4 @@
-module deimos.libtcc.libtcc;
+module deimos.libtcc;
 
 extern (C) nothrow:
 
@@ -83,8 +83,7 @@ int tcc_relocate(TCCState* s1, void* ptr);
    - NULL              : return required memory size for the step below
    - memory address    : copy code to memory passed by the caller
    returns -1 if error. */
-enum TCC_RELOCATE_AUTO = cast(void*)1;
+enum TCC_RELOCATE_AUTO = cast(void*) 1;
 
 /* return symbol value or NULL if not found */
 void* tcc_get_symbol(TCCState* s, in char* name);
-

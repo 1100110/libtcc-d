@@ -1,0 +1,12 @@
+{
+	"name":         "libtcc-d",
+	"description":  "D Binding to the Tiny C Compiler",
+	"homepage":     "http://bellard.org/tcc/",
+    "targetType":   "library",
+    "targetName":   "tcc-d",
+    "sourcePaths":  ["deimos"],
+    "importPaths":  ["deimos"],
+    "libs-posix":   ["tcc"],
+	"dependencies": {
+	}
+}

@@ -1,4 +1,4 @@
-import deimos.libtcc.libtcc;
+import deimos.libtcc;
 pragma(lib, "tcc");
 /**
     Example that shows dynamically generating and running a C Example.
@@ -23,6 +23,7 @@ void main()
     assert( 0 <= tcc_compile_string(tccstate, helloC.toStringz)  );
 
     writefln( "Running:\n%s", helloC);
+    
     /// Now run the new file passing along the args.
     /// tcc_run( tccstate, int argc, char** argv);
     auto ret = tcc_run(tccstate, 0, null);
